@@ -1,0 +1,53 @@
+{
+    // Controls whether the editor has code folding enabled.
+    "editor.folding": false,
+
+    // Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+    "editor.insertSpaces": false,
+
+     // Controls whether the editor should render indent guides.
+    "editor.renderIndentGuides": true,
+
+    // Render vertical rulers after a certain number of monospace characters. Use multiple values for multiple rulers. No rulers are drawn if array is empty.
+    "editor.rulers": [120],
+
+    // Characters that will be used as word separators when doing word related navigations or operations
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",<>/?",
+
+    // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+    "files.trimFinalNewlines": true,
+
+    // When enabled, will trim trailing whitespace when saving a file.
+    "files.trimTrailingWhitespace": true,
+
+    // The path of the shell that the terminal uses on Windows (use Git\\bin\\bash.exe)
+    //"terminal.integrated.shell.windows": "",
+
+    // Controls the visibility of the status bar at the bottom of the workbench.
+    "workbench.statusBar.visible": true,
+
+    // https://code.visualstudio.com/api/references/theme-color
+    "workbench.colorCustomizations": {
+        "editor.background": "#222222",
+        "editor.findMatchHighlightBorder": "#ffaaff",
+        "editor.lineHighlightBackground": "#333333",
+        "editor.lineHighlightBorder": "#22222200",
+        "editor.selectionHighlightBorder": "#ffffaa",
+        "editor.selectionBackground": "#52629e",
+        "editorLineNumber.activeForeground": "#dddddd",
+        "editorLineNumber.foreground": "#4b4b4b",
+        "editorRuler.foreground": "#3b3b3b",
+        "list.activeSelectionBackground": "#333333",
+        "panel.border": "#4b4b4b",
+        "sideBar.background": "#222222",
+        "sideBar.border": "#4b4b4b",
+        "scrollbar.shadow": "#00000000",
+        "statusBar.background" : "#222222",
+        "statusBar.border": "#4b4b4b",
+        "statusBar.foreground": "#dddddd",
+        "widget.shadow": "#00000000"
+    },
+
+    // Adjust the zoom level of the window
+	"window.zoomLevel": 0
+}
