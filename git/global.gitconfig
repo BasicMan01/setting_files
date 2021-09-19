@@ -2,6 +2,8 @@
 	editor = 'D:\\VSCode-win32-x64-1.42.0\\code.exe' -w
 [diff]
 	tool = winmerge
+[difftool]
+	prompt = false
 [difftool "winmerge"]
 	cmd =  "'D:/WinMerge/WinMergeU.exe'" -e -u -dl \"OLD $BASE\" -dr \"NEW $BASE\" \"$LOCAL\" \"$REMOTE\"
 [merge]
